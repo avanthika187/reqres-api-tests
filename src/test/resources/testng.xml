@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ReqRes API Test Suite">
+  <test name="API Tests">
+    <classes>
+      <class name="com.avanthika.tests.GetUserTests"/>
+      <class name="com.avanthika.tests.CreateUserTests"/>
+      <class name="com.avanthika.tests.UpdateDeleteTests"/>
+      <class name="com.avanthika.tests.AuthTests"/>
+    </classes>
+  </test>
+</suite>
