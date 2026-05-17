@@ -14,7 +14,7 @@ public class BaseTest {
 		requestSpecification = new RequestSpecBuilder()
 				.setBaseUri("https://reqres.in/api")
 				.setContentType(ContentType.JSON)
-				.addHeader("x-api-key", "free_user_3DDSPkuQ4nI9ZfScfrTPNzTdoqs")
+				.addHeader("x-api-key", "YOU_API_KEY")
 				.build();
 		
 	}
