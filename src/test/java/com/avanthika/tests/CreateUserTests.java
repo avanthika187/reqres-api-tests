@@ -12,12 +12,12 @@ public class CreateUserTests extends BaseTest {
 	
 	@Test
 	public void createUserReturns201() {
-	    String body = "{ \"name\": \"Vishaka\", \"job\": \"Engineer\" }";
+	    String body = "{ \"name\": \"Bella\", \"job\": \"Engineer\" }";
 	    given().spec(requestSpecification).body(body)
 	    .when().post("/users")
 	    .then()
 	        .statusCode(201)
-	        .body("name", equalTo("Vishaka"))
+	        .body("name", equalTo("Bella"))
 	        .body("id", notNullValue());
 	}
 
